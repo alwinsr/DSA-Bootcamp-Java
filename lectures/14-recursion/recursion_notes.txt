@@ -1,0 +1,41 @@
+While the function is not finished executing it will remain in stack.
+
+When  function is finished executing it is removed from stack and the flow of the flow of the program is restored to the point where the function is called.
+
+--Recursion means a function that calls itself.
+ 
+* Base condition: Condition where our recursion will stop making new calls.
+
+//if you are calling a function again and again, you can treat it as a seperate call in the stack.
+	
+No base condition ---> function calls will keep on happening , stack will be filled again and again, every function call will take memory.
+
+-- Memory of the computer will exceed the limit which will lead to stackoverflow error.
+
+Why Recursion??
+    * It helps us in solving bigger complex problems in a   	 simpler way.
+    * You can convert any recursion solution into 	   	 	 interation and vice versa.
+    * Space complexity is not constant  because of 	 	 recursive calls.
+
+How to know use recursion??
+	* Break the problem down to smaller problems.
+	* The base condition is represented by answers we 		  have.
+	
+**When you have the last statement in the function call it      is called tailed recursion.
+
+
+--------------------------------------------------------------------------------------------------------------------
+Steps to approach the problem
+-break the problem into smaller problem
+-write the recursive relation
+-draw the recursive tree
+-see the flow of functions
+
+
+
+********************************************************************************************************************TYPES OF RECURSION RELATIONS:
+  Linear recursion --- fibonacii
+  Divide and conquer relation --- binary search
+			(reduced by a factor)
+
+** TIP-- Make sure to return the result of a function call of the return type.
