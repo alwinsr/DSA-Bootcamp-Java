@@ -13,15 +13,15 @@ No base condition ---> function calls will keep on happening , stack will be fil
 -- Memory of the computer will exceed the limit which will lead to stackoverflow error.
 
 Why Recursion??
-    * It helps us in solving bigger complex problems in a   	 simpler way.
-    * You can convert any recursion solution into 	   	 	 interation and vice versa.
-    * Space complexity is not constant  because of 	 	 recursive calls.
+    * It helps us in solving bigger complex problems in a simpler way.
+    * You can convert any recursion solution into interation and vice versa.
+    * Space complexity is not constant  because of recursive calls.
 
 How to know use recursion??
 	* Break the problem down to smaller problems.
 	* The base condition is represented by answers we 		  have.
 	
-**When you have the last statement in the function call it      is called tailed recursion.
+**When you have the last statement in the function call it is called tailed recursion.
 
 
 --------------------------------------------------------------------------------------------------------------------
